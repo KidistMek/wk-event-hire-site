@@ -1,143 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>WK Event Equipment Hire</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background-color: #222;
-      color: #fff;
-      padding: 20px 0;
-      text-align: center;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      background-color: #333;
-    }
-    nav a {
-      color: white;
-      padding: 14px 20px;
-      text-decoration: none;
-      display: inline-block;
-    }
-    nav a:hover {
-      background-color: #555;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    .services, .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-    .service, .gallery-item {
-      background: white;
-      padding: 20px;
-      flex: 1 1 calc(33.333% - 40px);
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    .gallery-item img {
-      width: 100%;
-      height: auto;
-    }
-    footer {
-      background-color: #222;
-      color: white;
-      text-align: center;
-      padding: 20px 0;
-    }
-    @media (max-width: 768px) {
-      .service, .gallery-item {
-        flex: 1 1 100%;
-      }
-    }
-  </style>
-</head>
-<body>
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
-  <header>
-    <h1>WK Event Equipment Hire</h1>
-    <p>Your trusted partner for event equipment hire</p>
-  </header>
+form button {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section id="about">
-    <h2>About Us</h2>
-    <p>WK Event Equipment Hire provides top-quality event equipment rentals for weddings, corporate events, parties, festivals, and more. With years of experience in the industry, we ensure your event runs smoothly with reliable gear and exceptional service.</p>
-  </section>
-
-  <section id="services">
-    <h2>Our Services</h2>
-    <div class="services">
-      <div class="service">
-        <h3>Sound Systems</h3>
-        <p>Professional PA systems and speakers for small to large events.</p>
-      </div>
-      <div class="service">
-        <h3>Lighting Equipment</h3>
-        <p>LED lighting, stage lights, and ambient decor lighting for any occasion.</p>
-      </div>
-      <div class="service">
-        <h3>Stage Hire</h3>
-        <p>Portable and modular stages available in various sizes and heights.</p>
-      </div>
-      <div class="service">
-        <h3>Furniture</h3>
-        <p>Chairs, tables, bars, and lounge furniture to suit your event’s style.</p>
-      </div>
-      <div class="service">
-        <h3>Generators</h3>
-        <p>Reliable power solutions for outdoor or off-grid events.</p>
-      </div>
-      <div class="service">
-        <h3>Event Accessories</h3>
-        <p>Podiums, truss systems, cables, mixers, and more.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="gallery">
-    <h2>Gallery</h2>
-    <div class="gallery">
-      <div class="gallery-item"><img src="https://via.placeholder.com/300x200?text=Sound+System" alt="Sound System"></div>
-      <div class="gallery-item"><img src="https://via.placeholder.com/300x200?text=Lighting" alt="Lighting"></div>
-      <div class="gallery-item"><img src="https://via.placeholder.com/300x200?text=Stage" alt="Stage Setup"></div>
-      <div class="gallery-item"><img src="https://via.placeholder.com/300x200?text=Furniture" alt="Furniture Setup"></div>
-      <div class="gallery-item"><img src="https://via.placeholder.com/300x200?text=Outdoor+Event" alt="Outdoor Event"></div>
-      <div class="gallery-item"><img src="https://via.placeholder.com/300x200?text=Decor+Lighting" alt="Decor Lighting"></div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Interested in hiring our equipment for your event? Get in touch!</p>
-    <ul>
-      <li><strong>Email:</strong> info@wkeventhire.com</li>
-      <li><strong>Phone:</strong> +44 1234 567890</li>
-      <li><strong>Location:</strong> London, UK</li>
-    </ul>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 WK Event Equipment Hire. All rights reserved.</p>
-  </footer>
-
-</body>
-</html>
+form button:hover {
+  background-color: #555;
+}
